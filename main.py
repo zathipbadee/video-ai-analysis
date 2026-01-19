@@ -19,7 +19,8 @@ if __name__ == "__main__":
 
     # extract frames block
     print("\n[1] Extracting frames...")
-    timestamps = extract_frames(INPUT_VIDEO, EXTRACTED_FRAMES_DIR, interval_sec=FRAME_INTERVAL)
+    # timestamps = extract_frames(INPUT_VIDEO, EXTRACTED_FRAMES_DIR, interval_sec=FRAME_INTERVAL)
+    timestamps = {"img.jpg": 1.0}
 
     # analysis block
     print("\n[2] Analyzing frames...")
