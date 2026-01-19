@@ -1,6 +1,37 @@
 ============================================================
-Frame: img.jpg
-Time: 2026-01-19 09:34:26
+Frame: frame_3.jpg
+Time: 2026-01-15 10:13:32
 ------------------------------------------------------------
-Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+ ```json
+{
+  "event_detected": true,
+  "event_type": {
+    "none": "low",
+    "human_presence": "medium",
+    "person_in_distress": "medium",
+    "fallen_person": "medium",
+    "forced_entry": "high",
+    "door_tampering": "high",
+    "weapon_visible": "high",
+    "fire_smoke_visible": "high"
+  },
+  "risk_level": {
+    "none": "low",
+    "human_presence": "medium",
+    "person_in_distress": "medium",
+    "fallen_person": "medium",
+    "forced_entry": "high",
+    "door_tampering": "high",
+    "weapon_visible": "high
+
+============================================================
+Frame: frame_8.jpg
+Time: 2026-01-15 13:59:03
+------------------------------------------------------------
+ {
+  "event\_detected": false,
+  "event\_type": "none",
+  "risk\_level": "low",
+  "description": "The image is a nighttime security camera footage of an outdoor porch area. There are no people or suspicious activity visible in the frame."
+} 
 
